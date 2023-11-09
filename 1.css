@@ -1,0 +1,307 @@
+.navigate {
+    background: linear-gradient(to bottom, #007bff, #0056b3); 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+header {
+    background: linear-gradient(to bottom, #007bff, #0056b3);
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px; 
+}
+
+.hotel a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.navigate .navbar {
+    text-align: right;
+}
+
+.navigate .navbar a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px; 
+}
+
+.navigate .navbar a:hover {
+    background-color: white;
+    color: #4169E1;
+}
+
+.body {
+    background-color: aqua;
+}
+
+.services {
+    font-style: normal;
+    font-family: sans-serif;
+    display: block;
+    font-stretch: expanded;
+}
+
+.scroll-to {
+    cursor: pointer;
+}
+
+.resort-name {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: #0072b4;
+}
+
+.home {
+    background-image: 
+    radial-gradient(at 30% 30%, hsla(46, 95%, 65%, 1) 0px, transparent 50%),
+    radial-gradient(at 70% 30%, hsla(168, 85%, 65%, 1) 0px, transparent 50%),
+    radial-gradient(at 30% 70%, hsla(290, 85%, 65%, 1) 0px, transparent 50%),
+    radial-gradient(at 70% 70%, hsla(12, 85%, 65%, 1) 0px, transparent 50%);
+}
+.ft{
+    
+    justify-content: space-between;
+    background-image: url('SL_111720_38050_100_19.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    max-width: 100%;
+    color: #fff;
+    padding: 20px;
+    margin-top: 20px;
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    max-width: 100%;
+    color: #fff;
+    padding: 20px;
+    margin-top: 20px;
+}
+.copywrite{
+    color:rgb(228, 214, 214);
+}
+
+.footer h3 {
+    font-size: 20px;
+}
+
+.footer_aboutUs,
+.footer_contactUs {
+    width: 50%;
+}
+
+.footer p {
+    margin: 5px 0;
+}
+
+.footer a {
+    color: #fff;
+    font-weight: 700;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer a:hover {
+    background-image: 
+    radial-gradient(at 30% 30%, rgb(81, 251, 104) 0px, transparent 50%),
+    radial-gradient(at 70% 30%, hsla(168, 85%, 65%, 1) 0px, transparent 50%),
+    radial-gradient(at 30% 70%, rgb(90, 151, 242) 0px, transparent 50%),
+    radial-gradient(at 70% 70%, rgb(214, 242, 90) 0px, transparent 50%);
+    text-decoration: underline;
+}
+
+.award {
+    max-width: 1010px;
+    margin: auto;
+    background-color: white;
+    padding: 20px;
+    
+}
+
+.awards {
+    display: flex;
+    align-items: center;
+    overflow-x: hidden;
+    
+}
+
+.scrolling-container {
+    display: flex;
+    white-space: nowrap;
+}
+
+.award1, .award2, .award3, .award4, .award5, .award6, .award7, .award8, .award9 {
+    display: inline-block;
+    margin-right: 20px;
+    max-width: 300px; 
+    overflow-wrap: break-word;
+    text-align: center;
+}
+
+button {
+    padding: 10px;
+    background-color: lightgray;
+    border: none;
+    cursor: pointer;
+}
+
+#scroll-left, #scroll-right {
+    margin: 0 10px;
+}
+.history{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.history_img{
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+}
+.img1{
+    
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.history_info{
+    background-color:white
+    
+}
+.history_intro{
+    background-color:white;
+    justify-content: space-between;
+    max-width: 1000px;
+    padding: 20px;
+    margin: 20px;
+    background-color:white;
+    margin-bottom: 20px;
+    align-self: center;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 10pxF;
+}
+.qualities {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.qualities li {
+    margin: 10px;
+    cursor: pointer;
+    position: relative;
+}
+
+.qualities li::after {
+    content: attr(data-description);
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    background: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: opacity 0.3s;
+    font-size: 0.8em;
+    white-space: nowrap;
+}
+
+.qualities li:hover::after {
+    opacity: 1;
+}
+
+.service-body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+                url('luxurious-amenities.jpg');
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+}
+
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.service-category {
+    flex: 1;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    text-align: justify;
+}
+
+.service-category ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.service-category li {
+    margin-bottom: 10px;
+    cursor: pointer;
+    position: relative;
+}
+
+.service-category li::before {
+    content: attr(data-description);
+    position: absolute;
+    top: -100%;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    background: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: opacity 0.3s;
+    font-size: 1.2em;
+    white-space: nowrap;
+}
+
+.service-category li:hover::before {
+    opacity: 1;
+}
+
+
+.carousel-container {
+    overflow-x: scroll;
+    margin: auto;
+    border: 2px solid #ccc;
+    white-space: nowrap;
+    scroll-snap-type: x mandatory;
+}
+
+.carousel-images {
+    display: inline-flex;
+    flex-direction: row;
+    scroll-snap-align: start;
+}
+
+.carousel-image {
+    width: 100%;
+    min-width: 300px; 
+}

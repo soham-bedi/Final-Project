@@ -1,0 +1,22 @@
+.award {
+    /* Add your styles for the outer award container here */
+}
+
+.awards {
+    display: flex;
+    overflow-x: auto; /* Enable horizontal scrolling */
+    white-space: nowrap; /* Prevent wrapping of items to the next line */
+}
+
+.award-container {
+    flex: 0 0 auto; /* Prevent flex items from growing or shrinking */
+    padding: 10px; /* Add some spacing between awards if desired */
+}
+
+.award1,
+.award2,
+.award3,award4,award5,award6,award7,award8,award9 {
+    /* Add styles for individual awards here */
+    display: inline-block; /* Display awards in a row */
+    margin-right: 10px; /* Add spacing between awards */
+}
